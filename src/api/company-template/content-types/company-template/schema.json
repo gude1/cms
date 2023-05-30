@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "company_templates",
+  "info": {
+    "singularName": "company-template",
+    "pluralName": "company-templates",
+    "displayName": "Company Template",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "text",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

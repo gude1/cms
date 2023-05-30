@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "leaderspeeches",
+  "info": {
+    "singularName": "leaderspeech",
+    "pluralName": "leaderspeeches",
+    "displayName": "leaderspeech",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "message": {
+      "type": "richtext",
+      "required": true
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
